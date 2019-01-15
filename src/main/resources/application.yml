@@ -1,0 +1,13 @@
+server:
+  port: 8002
+  
+# 生产者的组名
+# 消费者的组名
+# NameServer地址
+apache:
+   rocketmq:
+     producer:
+      producerGroup: Producer
+     consumer:
+      PushConsumer: PushConsumer
+     namesrvaddr: localhost:9876
